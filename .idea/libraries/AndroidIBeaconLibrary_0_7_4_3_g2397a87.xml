@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="AndroidIBeaconLibrary-0.7.4-3-g2397a87">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/build/exploded-aar/com.radiusnetworks/AndroidIBeaconLibrary/0.7.4-3-g2397a87/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/app/build/exploded-aar/com.radiusnetworks/AndroidIBeaconLibrary/0.7.4-3-g2397a87/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

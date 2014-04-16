@@ -1,0 +1,27 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion "19.0.3"
+
+//updated minsdk to 18 for AndroidIBeaconLibrary-x.x.x.aar
+    defaultConfig {
+        minSdkVersion 18
+        targetSdkVersion 19
+        versionCode 1
+        versionName "1.0"
+    }
+    buildTypes {
+        release {
+            runProguard false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+}
+// added *.aar ...compile "com.radius....works
+dependencies {
+    compile 'com.android.support:appcompat-v7:19.+'
+//    compile fileTree(dir: 'libs', include: ['*.jar', '*.aar'])...fixed build-run duplicate error.
+    compile 'com.radiusnetworks:AndroidIBeaconLibrary:0.7+@aar'
+
+}
